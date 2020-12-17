@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  width: 100%;
+
+  color: black;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.img {
+  background-image: url(./violeta.png);
+  height: 100px;
+  width: 190px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.MuiSvgIcon-root {
+  font-size: 40px !important;
+  color: rgb(151, 151, 151) !important;
+}
+
+.MuiButton-root {
+  margin-top: 10px !important;
+  margin-right: 15px !important;
+}
+
+.MuiButton-outlined {
+  padding: 0px 20px !important;
+}
+
+.boton {
+  letter-spacing: 2px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(255, 0, 0, 0);
+  margin-right: 15px;
+  margin-top: 10px;
+  height: 30px;
+  padding: 0px 25px;
+  font-size: 15px;
+}
+
+.boton:hover {
+  transition: 200ms ease-in;
+  background-color: rgba(223, 223, 223, 0.644);
+}
+
+.botonart {
+  text-decoration: none;
+  color: black;
+}
+
+.botonart:hover {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 680px) {
+  .img {
+    margin-right: 15px;
+  }
+}

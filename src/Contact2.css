@@ -1,0 +1,14 @@
+.contenedor2 {
+  height: 98vh;
+  width: 40%;
+  background-image: url(./mapaDF3.png);
+  background-size: cover;
+  background-position-x: center;
+  background-position: center;
+}
+
+@media (max-width: 680px) {
+  .contenedor2 {
+    width: 100%;
+  }
+}

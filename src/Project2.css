@@ -1,0 +1,30 @@
+.carrusel {
+  margin-bottom: 2vh;
+}
+
+.header {
+  z-index: 100;
+  position: absolute;
+}
+
+.contenedor-descripcion {
+  width: 300px;
+}
+
+.descripcion {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  left: 32% !important;
+  right: 32% !important;
+}
+
+.flecha {
+  color: black;
+}
+
+@media (max-width: 680px) {
+  .hola {
+    width: 100%;
+    height: 400px;
+  }
+}
